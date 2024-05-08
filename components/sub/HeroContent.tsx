@@ -52,12 +52,15 @@ const HeroContent = () => {
            and Software development. Check out my projects and skills.
         </motion.p>
         <motion.a
-          variants={slideInFromLeft(1)}
-          className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
-          href="https://www.linkedin.com/in/shithin-shetty/"
-        >
-          Learn More About Me!
-        </motion.a>
+  variants={slideInFromLeft(1)}
+  className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
+  href="https://www.linkedin.com/in/shithin-shetty/"
+>
+  Learn More About Me!
+</motion.a>
+
+
+        
       </div>
 
       <motion.div
