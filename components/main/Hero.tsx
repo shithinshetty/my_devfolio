@@ -1,6 +1,7 @@
 import React from "react";
 import HeroContent from "../sub/HeroContent";
 import StarBackground from "../sub/StarBackground";
+import Navbar from "./Navbar";
 
 const Hero = () => {
   return (
@@ -15,6 +16,7 @@ const Hero = () => {
       </video>
       <HeroContent />
       <StarBackground/>
+      <Navbar/>
     </div>
   );
 };
