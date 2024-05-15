@@ -5,6 +5,8 @@ import Navbar from "./Navbar";
 import Skills from "./Skills";
 import Projects from "./Projects";
 
+import Contact from "./Contact";
+
 const Hero = () => {
   return (
     <div className="relative flex flex-col h-full w-full" id="about-me">
@@ -21,6 +23,9 @@ const Hero = () => {
       <Navbar/>
       <Skills/>
       <Projects/>
+      <Contact/>
+      
+
     </div>
   );
 };
