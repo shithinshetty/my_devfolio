@@ -3,6 +3,7 @@ import HeroContent from "../sub/HeroContent";
 import StarBackground from "../sub/StarBackground";
 import Navbar from "./Navbar";
 import Skills from "./Skills";
+import Projects from "./Projects";
 
 const Hero = () => {
   return (
@@ -19,6 +20,7 @@ const Hero = () => {
       <StarBackground/>
       <Navbar/>
       <Skills/>
+      <Projects/>
     </div>
   );
 };

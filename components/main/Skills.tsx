@@ -13,7 +13,7 @@ import {
     return (
       <section
         id="skills"
-        className="flex flex-col items-center justify-center  h-full relative pb-80 py-20"
+        className="flex flex-col items-center justify-center  h-full relative  py-20"
         style={{ transform: "scale(0.9" }}
       >
         <SkillText />
