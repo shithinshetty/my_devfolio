@@ -2,6 +2,7 @@ import React from "react";
 import HeroContent from "../sub/HeroContent";
 import StarBackground from "../sub/StarBackground";
 import Navbar from "./Navbar";
+import Skills from "./Skills";
 
 const Hero = () => {
   return (
@@ -17,6 +18,7 @@ const Hero = () => {
       <HeroContent />
       <StarBackground/>
       <Navbar/>
+      <Skills/>
     </div>
   );
 };

@@ -9,7 +9,7 @@ import {
 } from "@/utils/motion";
 import { SparklesIcon } from "@heroicons/react/24/solid";
 import Image from "next/image";
-import img from "@/public/assests/mainIconsdark.svg"
+import img from "@/public/mainIconsdark.svg"
 import Link from 'next/link';
 
 const HeroContent = () => {
