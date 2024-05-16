@@ -2,23 +2,23 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <div   className="flex flex-col items-center justify-center ">
+    <div   className="flex flex-col items-center justify-center  m-10" id="contact">
        <h1 className="text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-10">
         Contact Me
       </h1>
     <div className="flex relative items-center justify-center " >
     
-    <div className="rounded-xl overflow-hidden relative text-center p-1 group items-center flex flex-col max-w-sm hover:shadow-2xl transition-all duration-500 shadow-xl" id="contact" >
+    <div className="rounded-xl overflow-hidden relative text-center p-1 group items-center flex flex-col max-w-sm hover:shadow-2xl transition-all duration-500 shadow-xl"  >
       <div className="text-gray-500 group-hover:scale-105 transition-all">
         <svg className="w-16 h-16" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M17.982 18.725A7.488 7.488 0 0012 15.75a7.488 7.488 0 00-5.982 2.975m11.963 0a9 9 0 10-11.963 0m11.963 0A8.966 8.966 0 0112 21a8.966 8.966 0 01-5.982-2.275M15 9.75a3 3 0 11-6 0 3 3 0 016 0z" stroke-linejoin="round" stroke-linecap="round"></path>
         </svg>
       </div>
-      <div className="group-hover:pb-10 transition-all duration-500 delay-200">
+      <div className="group-hover:pb-10 transition-all duration-500 delay-200 ">
         <h1 className="font-semibold text-gray-700">Shithin Shetty</h1>
         <p className="text-gray-500 text-sm">@shithinshetty07@gmail.com </p>
       </div>
-      <div className="flex items-center transition-all duration-500 delay-200 group-hover:bottom-3 -bottom-full absolute gap-2 justify-evenly w-full">
+      <div className="flex m-3 items-center transition-all duration-500 delay-200 group-hover:bottom-3 -bottom-full absolute gap-2 justify-evenly w-full">
         <div className="flex gap-3 text-2xl bg-gray-700 text-white p-1 hover:p-2 transition-all duration-500 delay-200 rounded-full shadow-sm">
           <a className="hover:scale-110 transition-all duration-500 delay-200" href='https://github.com/shithinshetty'>
             <svg width="1em" height="1em" fill="currentColor" viewBox="0 0 1024 1024">
