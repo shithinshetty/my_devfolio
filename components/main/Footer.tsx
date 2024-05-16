@@ -14,7 +14,7 @@ const Footer = () => {
       <div className="mt-16 grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-32">
         <div className="mx-auto max-w-sm lg:max-w-none">
           <p className="mt-4 text-center text-gray-200 lg:text-left lg:text-lg">
-            In the dynamic world of tech, I'm the architect behind digital wonders, seamlessly fusing front-end allure with back-end prowess. With a background in Computer Science and extensive full-stack experience, I craft innovative solutions that redefine possibilities.
+            In the dynamic world of tech, I&apos; the architect behind digital wonders, seamlessly fusing front-end allure with back-end prowess. With a background in Computer Science and extensive full-stack experience, I craft innovative solutions that redefine possibilities.
           </p>
           <div className="mt-6 flex justify-center gap-4 lg:justify-start">
             <a
