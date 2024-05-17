@@ -10,7 +10,7 @@ const Footer = () => {
     
     
     <footer className="bg-transparent">
-    <div className="mx-auto max-w-screen-xl px-4 pb-8 pt-16 sm:px-6 lg:px-8">
+    <div className="mx-auto max-w-screen-xl px-4 pb-8 pt-16 sm:px-6 lg:px-8 ">
       <div className="mt-16 grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-32">
         <div className="mx-auto max-w-sm lg:max-w-none">
           <p className="mt-4 text-center text-gray-200 lg:text-left lg:text-lg">
@@ -62,7 +62,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="grid grid-cols-1 gap-8 text-center lg:grid-cols-3 lg:text-left">
+      <div className="grid grid-cols-1 gap-6 text-center lg:grid-cols-3 lg:text-left">
         <div>
           <strong className="font-medium text-gray-200"> Services </strong>
           <ul className="mt-6 space-y-1">
