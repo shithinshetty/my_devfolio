@@ -12,6 +12,8 @@ import Image from "next/image";
 import img from "@/public/mainIconsdark.svg"
 import Link from 'next/link';
 
+
+
 const HeroContent = () => {
   return (
     <motion.div
@@ -57,6 +59,13 @@ const HeroContent = () => {
   href="https://www.linkedin.com/in/shithin-shetty/"
 >
   Learn More About Me!
+</motion.a>
+<motion.a
+  variants={slideInFromLeft(1)}
+  className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
+  href="https://drive.google.com/file/d/1o8ZdvkEX5qV-AR9HQLluczYf5XTW5-Zk/view"
+>
+  Download CV
 </motion.a>
 
 
